@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+Dbdata.create(page: 'home', body: 'its home page from DB')
+Dbdata.create(page: 'about', body: 'its about page from DB')
+Dbdata.create(page: 'contact', body: 'its contact page from DB')
