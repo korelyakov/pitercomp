@@ -7,11 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%= link_to 'Home', root_path %>
 	<p>layout - begin</p>
 	<%= @text.body %>
 	<p>layout - end</p>
 
 <%= yield %>
 
+<p>
+<%= link_to 'Contact', contact_path %>
+<%= link_to 'About', about_path %>
+</p>
 </body>
 </html>

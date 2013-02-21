@@ -3,9 +3,9 @@ MyApp::Application.routes.draw do
 
   root :to => "Pages#home"
 
-  match "about" => "Pages#about"
+  match "about" => "Pages#about", :as => :about
   
-  match "contact" => "Pages#contact"
+  match "contact" => "Pages#contact", :as => :contact
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
